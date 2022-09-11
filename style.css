@@ -1,42 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,300&display=swap');
 :root{
-    --primary-color:#242F9B;
+    --primary-color:#277BC0;
     --border-color:black;
-    --button-color:#F7D716;
+    --button-color:#F8F9D7;
     --error-color:red;
+    --text-color:#540E33;
 }
 body{
-    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
-    font-family: 'Indie Flower', cursive;;
-    /* background-color:blueviolet; */
+    background-color:var(--primary-color);
+    font-family: 'Source Serif Pro', serif;
+}
+textarea{
+    font-family: inherit;
 }
 
 .input{
-    margin: 0.1rem auto ;
+    margin:2px auto ;
     display: block;
     overflow: hidden;
-    padding: 1rem;
-    width: 30rem;
-    height: 7rem;
+    padding: 15px;
+    width: 500px;
+    height: 100px;
+    border: 2px solid #540E33;
 }
 
 .button{
+
     display: block;
-    margin: 0.2rem auto ;
-    padding: 1rem;
+    margin: 10px auto ;
+    padding: 15px;
     border-radius: 5px;
-    background-color: #008793;
+    background-color: var(--button-color);
     border: 1px solid var(--button-color) ;
 }
 .info-text{
     text-align: center;
 }
 .output{
-    margin: 0.1rem auto ;
-    border: 0.1rem solid var(--border-color);
-    padding: 1rem;
-    width: 30rem;
-    height: 7rem;
+    margin: 7px auto ;
+    border: 2px solid var(--border-color);
+    padding: 15px;
+    width: 500px;
+    height: 100px;
 }
 
 .output-error{
@@ -45,12 +50,13 @@ body{
 }
 
 .box{
-    padding: 0.2rem;
-    margin: 2rem auto;
+    padding: 10px;
+    margin: 30px auto;
     height: 500px;
     width: 850px;
     background-color: white;
     border-radius: 10px;
+    border: 2px solid var(--text-color);
 }
 
 
@@ -58,14 +64,11 @@ body{
     font-weight: bolder;
     margin: 0;
     text-align: center;
-    color:#00bf72;
+    color:var(--text-color);
     font-weight: 200;
 }
 .footer{
     font-weight: bolder;
     text-align: center;
-    color:#00bf72;
+    color:var(--text-color);
 }
-
-
-

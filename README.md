@@ -9,4 +9,4 @@ Created a application to translate English to Ferb Latin. During their routine s
 
 ## Live Project
 
-[Veiw Projects](https://fernlatintranslation.netlify.app/)
+[FernLatinTranslation](https://fernlatintranslation.netlify.app/)

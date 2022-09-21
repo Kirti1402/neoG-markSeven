@@ -25,7 +25,7 @@ textarea{
 }
 
 .button{
-
+    cursor: pointer;
     display: block;
     margin: 10px auto ;
     padding: 15px;

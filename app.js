@@ -6,7 +6,7 @@ console.log(input);
 console.log(output);
 console.log(button);
 
-var apiURL = "https://api.funtranslations.com/translate/ferb-latin.jso";
+var apiURL = "https://api.funtranslations.com/translate/ferb-latin.json";
 
 function constructURL(text) {
   return apiURL + "?text=" + text;
